@@ -1,0 +1,30 @@
+.grid {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+}
+.col {
+    padding: 0 4px;
+}
+
+.xs-0 {
+    display: none;
+}
+.xs-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+@media screen and (min-width: $breakpoint-sm) {
+    .sm-6 {
+        display: block;
+    }
+    .sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
