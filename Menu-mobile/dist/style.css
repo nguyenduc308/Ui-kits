@@ -487,11 +487,21 @@ ul, li {
   left: 100%;
   top: 0;
   width: max-content;
+  border-right: 1px solid #efefef;
   display: none;
 }
 .header-nav-mobile__list .menu-mobile__item-submenu .submenu-item {
   padding: 10px;
   border-bottom: 1px solid #efefef;
+}
+.header-nav-mobile__list .menu-mobile__item-submenu .submenu-item:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.header-nav-mobile__list .menu-mobile__item-submenu .submenu-item:hover .menu-mobile__item-submenu {
+  display: block;
+}
+.header-nav-mobile__list .menu-mobile__item-submenu .submenu-item .menu-mobile__item-submenu {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
